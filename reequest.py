@@ -25,4 +25,3 @@ for teachers in s.teachers():
 
 for students in s.students():
     print(students.full_name)    
-#s.logout()
