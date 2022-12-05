@@ -1,7 +1,6 @@
 import webuntis
 import datetime
 
-
 today = datetime.date.today()
 monday = today - datetime.timedelta(days=today.weekday())
 friday = monday + datetime.timedelta(days=4)
